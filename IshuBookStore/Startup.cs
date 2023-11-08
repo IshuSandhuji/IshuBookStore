@@ -1,5 +1,6 @@
 
 using IshuBookStore.DataAccess.Data;
+using IshuBookStore.DataAccess.Respository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +36,7 @@ namespace IshuBookStore
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<UnitOFWork, UnitOFWork>();
             services.AddControllersWithViews();
         }
 

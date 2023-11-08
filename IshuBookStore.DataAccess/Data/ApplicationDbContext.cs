@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+using IshuBooks.Models;
 namespace IshuBookStore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
@@ -12,5 +12,6 @@ namespace IshuBookStore.DataAccess.Data
             : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }
