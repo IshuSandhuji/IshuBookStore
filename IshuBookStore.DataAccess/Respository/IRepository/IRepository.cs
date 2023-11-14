@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IshuBooks.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -20,5 +21,6 @@ namespace IshuBookStore.DataAccess.Respository.IRepository
         void Remove(int id);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entity);
+        void Update(Category category);
     }
 }
