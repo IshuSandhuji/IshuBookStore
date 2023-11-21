@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace IshuBooks.Models
 {
-   public  class Category
+   public class Category
     {
         [Key]
         public int Id { get; set; }

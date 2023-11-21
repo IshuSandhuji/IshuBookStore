@@ -1,5 +1,6 @@
 ﻿using IshuBooks.Models;
 using IshuBookStore.DataAccess.Data;
+using IshuBookStore.DataAccess.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,17 +17,20 @@ namespace IshuBookStore.DataAccess.Respository.IRepository
             _db = db;
 
         }
-        public void Update(CoverType covertype)
+
+
+        public void Update(CoverType coverType)
         {
-            var objFromDb = _db.CoverType.FirstOrDefault(s => s.Id == covertype.Id);
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == coverType.Id);
             if (objFromDb != null)
             {
-                objFromDb.Name = covertype.Name;
+                objFromDb.Name = coverType.Name;
                 _db.SaveChanges();
             }
-            throw new NotImplementedException();
+
         }
 
 
     }
 }
+

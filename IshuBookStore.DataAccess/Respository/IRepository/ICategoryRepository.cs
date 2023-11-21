@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace IshuBookStore.DataAccess.Respository.IRepository
 {
-    public  interface ICategoryRepository : IRepository<Category>
-
+    public interface ICategoryRepository : IRepository<Category>
     {
-       public void Update(Category category);
+        void Update(Category category);
     }
+
 }

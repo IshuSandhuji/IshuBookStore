@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IshuBookStore.DataAccess.Repository.IRepository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace IshuBookStore.DataAccess.Respository.IRepository
     {
         ICategoryRepository Category { get; }
         ICoverTypeRepositroy CoverType { get; }
+        IProductRepositroy Product { get; }
+
         ISP_Call SP_Call { get; }
+
+        void Save();
     }
 }
