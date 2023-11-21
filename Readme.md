@@ -24,4 +24,25 @@ Day 4
  Add project reference to the main project and make a customers area to areas and change teh routes in Startup.cs like the one outlined in the ScaffoldingReadMe.txt as well as move HomeController.cs to the Area> Customer> Controller folder and delete Data and models
  Then Edit the HomeController.cs to explicity define that the controller is in the controller is in the controller is in the Customer Area and copy _ViewImport and _ViewStart to Customer Area and also modify the_ViewStart.cshtml to reflect the new path
  Lastly, add a new area in areas and the proper view files and delete the data and model folder as well as delete the controllers folder and update the Github repo.
- 
+
+
+ day1 31/10/23 12.43pm
+
+First i add gitignore and .gitattributes .
+Then i use the nuget package manager console to add the migration.
+Then change to the correct default project and run it.
+After few minutes i add project files and the new migration files.
+
+same day 1.56pm
+
+I mention all the things in the read mention.
+
+Day 2 8/11/23  2.09 pm
+
+This day i solved my few errors and navigate to category.
+I add back to list and edit button.
+Later on add the delete functionality in category.js including the onclick event to the delete function.
+
+Day 3 14/11/23 1.30pm 
+
+After this has been added , save , check for error and run and test the application.
