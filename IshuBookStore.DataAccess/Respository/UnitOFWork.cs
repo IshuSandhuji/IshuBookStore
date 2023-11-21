@@ -21,6 +21,7 @@ namespace IshuBookStore.DataAccess.Respository
 
         }
         public ICategoryRepository Category { get; private set; }
+        public ICoverTypeRepositroy CoverType { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
 

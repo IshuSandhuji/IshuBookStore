@@ -13,5 +13,6 @@ namespace IshuBookStore.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public object CoverType { get; internal set; }
     }
 }

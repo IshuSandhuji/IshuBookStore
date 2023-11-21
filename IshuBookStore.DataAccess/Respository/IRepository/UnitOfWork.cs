@@ -9,6 +9,7 @@ namespace IshuBookStore.DataAccess.Respository.IRepository
      interface UnitOfWork:IDisposable
     {
         ICategoryRepository Category { get; }
+        ICoverTypeRepositroy CoverType { get; }
         ISP_Call SP_Call { get; }
     }
 }
