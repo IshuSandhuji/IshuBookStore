@@ -1,3 +1,4 @@
+#Assignment1
 Day 1
 Create a new project with visual studio 2019
 By following the guides
@@ -46,3 +47,19 @@ Later on add the delete functionality in category.js including the onclick event
 Day 3 14/11/23 1.30pm 
 
 After this has been added , save , check for error and run and test the application.
+
+
+#Assignment2 Part V 
+--------
+
+
+
+Day 1
+Fixed an error from Assignment 4 where the wrong table name was used in the product page.
+Day 2
+Started understanding the code provided by the professor.
+Day 4
+Began coding and faced challenges such as creating and adding new files, changing file paths, and resolving various bugs.
+Day 5
+The code started working, but encountered an error where the detail page was not found.
+
